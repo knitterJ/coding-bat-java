@@ -5,15 +5,11 @@
 // extraEnd("Hi") → "HiHiHi"
 
 public class ExtraEnd{
-
   public static String extraEnd(String str) {
     String lastTwo = str.substring(str.length()-2);
     return lastTwo + lastTwo + lastTwo;
   }
-
-
-
-public static void main(String[] args){
-  System.out.println(extraEnd("Hi"));
+  public static void main(String[] args){
+    System.out.println(extraEnd("Hi"));
   }
 }
