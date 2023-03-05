@@ -24,6 +24,8 @@ public class BiggerTwo {
     int[] numbers2 = new int[]{1, 2};
     int[] numbers3 = new int[]{1, 3};
     int[] numbers4 = new int[]{2, 2};
+
+    // compare two arrays "numbers" and "numbers2"
     System.out.println(Arrays.toString(biggerTwo(numbers, numbers2)));
     System.out.println(Arrays.toString(biggerTwo(numbers3, numbers4)));
   }
