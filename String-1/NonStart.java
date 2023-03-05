@@ -12,7 +12,6 @@ public class NonStart {
     return aMinusFirst + aMinusSecond;
   }
 
-
 public static void main(String[] args){
   System.out.println(nonStart("Hello", "hi"));
   System.out.println(nonStart("shotl", "java"));

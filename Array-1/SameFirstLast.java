@@ -12,7 +12,6 @@ public class SameFirstLast {
     } else return false;
   }
 
-
   public static void main(String[] args) {
     int[] myArray = {1, 2, 3};
     int[] myArray2 = {1, 2, 1};

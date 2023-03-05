@@ -4,7 +4,7 @@
 // theEnd("Hello", false) → "o"
 // theEnd("oh", true) → "o"
 
-public class TheEnd{
+public class TheEnd {
 public static String theEnd(String str, boolean front) {
   if(front == false){
     return str.substring(str.length()-1, str.length());

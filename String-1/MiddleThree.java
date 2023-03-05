@@ -10,8 +10,6 @@ public class MiddleThree {
     return str.substring(str.length()/2-1,str.length()/2+2);
   }
 
-
-
 public static void main(String[] args){
   System.out.println(middleThree("Candy"));
   System.out.println(middleThree("and"));
