@@ -8,7 +8,25 @@
 import java.util.Map;
 import java.util.*;
 
+public class Pairs {
 
-public Map<String, String> pairs(String[] strings) {
+public static Map<String, String> pairs(String[] strings) {
+  Map<String, String> map = new HashMap<>();
+ for (String str : strings) {
+     if (str.length() > 0) {
+         String key = str.substring(0, 1);
+         String value = str.substring(str.length() - 1);
+         map.put(key, value);
+     }
+ }
+ return map;
+}
+
+public static void main(String[] args) {
+  String[] testArray = {"ab","ba","aaacb","bx"};
+  String[] testArray2 = {"apple", "banana", "tea", "coffee"};
+  System.out.println(pairs(testArray2));
+}
+
 
 }
